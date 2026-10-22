@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS materi_pdo;
+
+USE materi_pdo;
+
+CREATE TABLE IF NOT EXISTS products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    harga INT NOT NULL,
+    stok INT NOT NULL
+);
